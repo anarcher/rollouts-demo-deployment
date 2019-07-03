@@ -16,6 +16,7 @@ spec:
       labels:
         app: rollouts-demo
     spec:
+      paused: false
       containers:
         - name: rollouts-demo
           image: "alexmt/rollouts-demo:latest"
